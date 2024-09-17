@@ -15,7 +15,7 @@ export default function Page() {
             priority
           />
           <p><strong>Joseph Maxey was born in Clonmel, Co. Tipperary around 1843 to the publican William Maxey and Bridget Maxey n&eacute;e Kelly.</strong></p>
-          <p>Joseph worked as a cooper, following his brother Timothy into the same trade.  In his work, he attained a level of prominence.  In 1866, he was President of the Coopers	&#39; Association of Clonmel.  In 1862, he married Ellen Delaney, a native of Clonmel.</p>
+          <p>Joseph worked as a cooper, following his brother Timothy into the same trade.  In his work, he attained a level of prominence.  In 1866, he was President of the Coopers&#39; Association of Clonmel.  In 1862, he married Ellen Delaney, a native of Clonmel.</p>
           <p>Joseph appears to have had a rebellious streak, having got into trouble on a number of occasions for expressing an anti-British sentiment.  In May 1866, he was charged for &#39;singing treasonable songs and proposing treasonable toasts&#39;, which intended &#39;to usurp the Queen&#39;s authority in Ireland.&#39;</p>
 
             <p>By December of that year, things would take a dramatic twist for Joseph when he was arrested on the 17th day of that month on suspicion of being a centre in the IRB.  This arrest was carried out under the Habeus Corpus Suspension Act, which allowed for the British authorities to detain suspects for indefinite periods without trial.  This was enacted in the context of the growing threat of Fenian rebellion in Ireland at that time.  Many others would be detained under the same circumstances.</p>
