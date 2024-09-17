@@ -4,9 +4,10 @@ import clsx from 'clsx';
 
 type NavigationProps = {
   active?: string;
+  isHome?: boolean;
 };
 
-export const Navigation = ({ active }: NavigationProps ) => {
+export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
     const [isNavOpen, setIsNavOpen] = useState(false);  
 
 	return (
@@ -60,7 +61,7 @@ export const Navigation = ({ active }: NavigationProps ) => {
               </div>
             </section>
     
-            <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-medium">
+            {!isHome && <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-medium">
               <li>
                 <a href="/">Home</a>
               </li>
@@ -76,7 +77,7 @@ export const Navigation = ({ active }: NavigationProps ) => {
               <li>
                 <a className={clsx({ "active" : active === "mapplethorpe"})} href="/robert-mapplethorpe">Robert Mapplethorpe</a>
               </li>
-            </ul>
+            </ul>}
           </nav>
           <style>{`
           .hideMenuNav {
