@@ -1,15 +1,15 @@
 import Navigation from '../components/Navigation';
 import ContentPage from '../components/Page';
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Page() {
     return <>
-        <Navigation active="josephMaxey" />
-        <ContentPage title="Joseph Maxey">
+        <Navigation active='josephMaxey' />
+        <ContentPage title='Joseph Maxey'>
           <Image
-            src="/joseph_maxey.jpg"
-            alt="Joseph Maxey"
-            className="dark:invert border-4 border-black lg:float-left lg:mr-4"
+            src='/joseph_maxey.jpg'
+            alt='Joseph Maxey'
+            className='dark:invert border-4 border-black lg:float-left lg:mr-4'
             width={300}
             height={24}
             priority
@@ -21,9 +21,9 @@ export default function Page() {
             <p>By December of that year, things would take a dramatic twist for Joseph when he was arrested on the 17th day of that month on suspicion of being a centre in the IRB.  This arrest was carried out under the Habeus Corpus Suspension Act, which allowed for the British authorities to detain suspects for indefinite periods without trial.  This was enacted in the context of the growing threat of Fenian rebellion in Ireland at that time.  Many others would be detained under the same circumstances.</p>
             <p>Joseph was held in Clonmel Gaol.  Over the subsequent months, there would be numberous pleas from various individuals for the release of Joseph from custody.  Many of these centred on the fact that his wife and children was entering destitution.  One such plea stated that his father, William, who was dependent upon him, was very ill.  Indeed, on 28 April 1867, William would pass away in the workhouse in Clonmel.</p>
             <Image
-                src="/joseph_maxey_detainment.png"
-                alt="Joseph Maxey detainment decision"
-                className="dark:invert border-4 border-black opacity-100 z-10 mt-10 lg:float-right lg:ml-4"
+                src='/joseph_maxey_detainment.png'
+                alt='Joseph Maxey detainment decision'
+                className='dark:invert border-4 border-black opacity-100 z-10 mt-10 lg:float-right lg:ml-4'
                 width={300}
                 height={24}
                 priority
@@ -47,5 +47,5 @@ export default function Page() {
               </ul>
             <p>Joseph died on 6 May 1913 from bronchitis.  He predeceased his wife, Mary Anne, who died in December 1914.  They were buried in Derrygrath Cemetery, outside of Clonmel.</p>
         </ContentPage>
-    </>;
+    </>
   }
