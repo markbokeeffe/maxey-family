@@ -86,7 +86,7 @@ export default function Page() {
                 src='/maxey_grave.jpg'
                 alt='Maxey grave, Derrygrath Cemetery'
                 className='mt-10'
-                caption="Joseph&#39;s family&#39;s grave im Derrygrath Cemtery, Co. Tipperary"
+                caption="Joseph&#39;s family&#39;s grave in Derrygrath Cemtery, Co. Tipperary"
                 width={300}
                 height={24}
               />
