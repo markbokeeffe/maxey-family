@@ -38,6 +38,23 @@ p {
   }
 }
 
+.home-container:before{
+  background-image: url('./assets/mainguard_clonmel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  opacity: 0.2;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
