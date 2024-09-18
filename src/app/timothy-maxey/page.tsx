@@ -1,5 +1,5 @@
 import ContentPage from '../components/Page';
-import Image from 'next/image';
+import Image from '../components/Image';
 
 export default function Page() {
     return <>
@@ -7,10 +7,9 @@ export default function Page() {
             <Image
             src='/timothy_maxey_prison_file.png'
             alt='Timothy Maxey Prison File'
-            className='dark:invert border-4 border-black lg:float-left lg:mr-4'
+            caption="Timothy Maxey&#39;s prison file from 1866-67"
             width={300}
             height={24}
-            priority
           />
           <p><span style={{ color: 'darkred' }} className="font-bold">Timothy Maxey was born in Clonmel, Co. Tipperary around 1837 to William Maxey (a publican) and Bridget Maxey n&eacute;e Kelly.</span></p>
           <p>He worked as a cooper - a popular trade in Clonmel at the time.  In 1860, he married Catherine Healy from Clonmel.  Together, they would have at least six children:</p>
@@ -28,7 +27,14 @@ export default function Page() {
           <p>Timothy became active in the growing secret society, the Irish Republican Brotherhood (IRB), in the early 1860s and in 1865, succeeded to the position of Clonmel Centre.</p>
           <p>In late 1865 and early 1866, Timothy was working with the movement in Carrick-on-Suir to attain sympathisers in the British military, with a view to take control of arms from British military stores in the event of a Fenian uprising.  However, Timothy and the group of Carrick-on-Suir Fenians were infiltrated by an undercover police detective, who exposed their conspiracy.  They were all duly arrested and imprisoned.</p>
 
-
+          <Image
+            src='/sarsfield.png'
+            alt='Letter from Sarsfield Circle of the Fenian Brotherhood of St. Louis'
+            caption="Letter from Timothy and others in the Sarsfield Circle of the Fenian Brotherhood of St. Louis to the United Irishman newspaper, 12 August 1882"
+            width={300}
+            height={24}
+            float="right"
+          />
           <span className="subtitle">Imprisonment &amp; Exile</span>
           <p>Despite pleas for release, Timothy was held for 15 months and it was not until July 1867 that he was eventually released on condition that he sail to America and never return.  He was accompanied by his family to New York.  Subsequently, he moved to the city of St. Louis, Missouri in the mid-1870s, where he ultimately settled.  There, he became involved in an Irish Republican movement by joining the committee of the &#39;Sarsfield Circle&#39; of the Fenian Brotherhood of St. Louis.  From there, he and his colleagues would send messages of support to the IRB in Ireland via the national newspapers.</p>
 
@@ -37,10 +43,10 @@ export default function Page() {
           <Image
                 src='/mclean_building.png'
                 alt='McLean Building, St. Louis, MO'
-                className='dark:invert border-4 border-black opacity-100 z-10 mt-10 lg:float-right lg:ml-4'
+                className='mt-10'
+                caption="The McLean Building in St. Louis, Missouri, where Timothy fell to his death in 1896"
                 width={300}
                 height={24}
-                priority
               />
 
           <span className="subtitle">Legacy</span>  

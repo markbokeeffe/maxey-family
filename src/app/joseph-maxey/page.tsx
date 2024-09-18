@@ -1,5 +1,5 @@
 import ContentPage from '../components/Page';
-import Image from 'next/image';
+import Image from '../components/Image';
 
 export default function Page() {
     return <>
@@ -7,10 +7,9 @@ export default function Page() {
           <Image
             src='/joseph_maxey.jpg'
             alt='Joseph Maxey'
-            className='dark:invert border-4 border-black lg:float-left lg:mr-4'
+            caption="Joseph Maxey photographed after his arrest in 1866"
             width={300}
             height={24}
-            priority
           />
           <p><span style={{ color: 'darkred' }} className="font-bold">Joseph Maxey was born in Clonmel, Co. Tipperary around 1843 to the publican William Maxey and Bridget Maxey n&eacute;e Kelly.</span></p>
           <p>Joseph worked as a cooper, following his brother Timothy into the same trade.  In his work, he attained a level of prominence.  In 1866, he was President of the Coopers&#39; Association of Clonmel.  In 1862, he married Ellen Delaney, a native of Clonmel.</p>
@@ -27,10 +26,11 @@ export default function Page() {
             <Image
                 src='/joseph_maxey_detainment.png'
                 alt='Joseph Maxey detainment decision'
-                className='dark:invert border-4 border-black opacity-100 z-10 mt-10 lg:float-right lg:ml-4'
+                className='mt-10'
+                caption="A pleas for Joseph&#39;s release in Feburary 1867"
                 width={300}
+                float="right"
                 height={24}
-                priority
               />
             
             <p>Joseph&#39;s imprisonment continued on into the summer and conditions in the gaol were very difficult.  Following the failed IRB uprising in Tallaght and elsewhere in the spring 1867, the British authorities deemed the threat that had been posed by the Fenian movement in Ireland to have reduced significantly and on this basis, in July 1867, they agreed to the release from prison of Joseph Maxey and he was freed on the 17th of that month.</p>
@@ -54,7 +54,42 @@ export default function Page() {
                 <li>- Joseph Nicholas (1886 - 1956)</li>
                 <li>- Margaret (1888 - 1974)</li>
               </ul>
-            <p>Joseph died on 6 May 1913 from bronchitis.  He predeceased his wife, Mary Anne, who died in December 1914.  They were buried in Derrygrath Cemetery, outside of Clonmel.</p>
+
+              <Image
+                src='/ellen_maxey.png'
+                alt='Ellen Maxey'
+                className='mt-10'
+                caption="Joseph&#39;s daughter, Ellen Maxey"
+                width={261}
+                height={24}
+              />
+              <Image
+                src='/kate_maxey.png'
+                alt='Kate Maxey'
+                className='mt-10'
+                caption="Joseph&#39;s daughter, Kate Maxey"
+                width={281}
+                height={24}
+                clear={false}
+              />
+              <Image
+                src='/margaret_maxey.png'
+                alt='Margaret Maxey'
+                className='mt-10'
+                caption="Joseph&#39;s daughter, Margaret Maxey"
+                width={300}
+                height={24}
+                clear={false}
+              />
+            <p style={{ float: "left" }}>Joseph died on 6 May 1913 from bronchitis.  He predeceased his wife, Mary Anne, who died in December 1914.  They were buried in Derrygrath Cemetery, outside of Clonmel.</p>
+            <Image
+                src='/maxey_grave.jpg'
+                alt='Maxey grave, Derrygrath Cemetery'
+                className='mt-10'
+                caption="Joseph&#39;s family&#39;s grave im Derrygrath Cemtery, Co. Tipperary"
+                width={300}
+                height={24}
+              />
         </ContentPage>
     </>
   }

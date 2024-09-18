@@ -1,6 +1,5 @@
-import Navigation from '../components/Navigation';
 import ContentPage from '../components/Page';
-import Image from "next/image";
+import Image from '../components/Image';
 
 export default function Page() {
     return <>
@@ -8,20 +7,21 @@ export default function Page() {
         <Image
             src="/gladstone_street.jpg"
             alt="Gladstone Street"
-            className="dark:invert border-4 border-black lg:float-left lg:mr-4"
+            caption="Johnson Street (now Gladstone Street) in Clonmel, where William Maxey had his business"
+            float="left"
             width={300}
             height={24}
-            priority
           /> 
           <p><span style={{ color: 'darkred' }} className="font-bold">The Maxey Family was a well-known family that lived on what was then known as Johnson Street (now Gladstone Street) in Clonmel in the mid-nineteenth century.</span></p>
           <p>William Maxey was a publican during the 1840s and 1850s who had his premises at 11 Johnson Street and he was married to Bridget Kelly.  William was quite prominent in Clonmel and was listed as a voter for the town.  He also held the occuptation of cooper, which his sons would follow him into.</p>
           <Image
             src="/wmmaxey_business.png"
             alt="William Maxey business"
-            className="dark:invert border-4 border-black opacity-100 z-10 mt-10 lg:float-right lg:ml-4"
+            caption="William Maxey&#39;s business listed in Griffith&#39;s Valuation"
+            className="mt-4"
+            float="right"
             width={300}
             height={24}
-            priority
           /> 
           <p>William was born around 1799 and he married Bridget Kelly some time before 1833.  Together, they had at least five children:</p>
           <ul>
@@ -35,11 +35,11 @@ export default function Page() {
           <Image
             src="/williamMaxeyPlea.png"
             alt="William Maxey Plea"
-            className="dark:invert border-4 border-black opacity-100 z-10 mt-4 lg:float-left lg:mr-4"
+            caption="A plea for the release from prison of William&#39;s son Joseph, citing William&#39;s age and dependence upon him."
+            className="mt-4"
             width={400}
             height={24}
-            priority
-          /> 
+          />
           <p>Whilst these pleas fell upon deaf ears, William passed away in the workhouse in Clonmel at the age of 67 from a bladder infection.  Bridget outlived Wililam.  However, it is known when she died.</p>
         </ContentPage>
     </>;
