@@ -12,7 +12,7 @@ export const Page = ({ id = '', title, children}: PropsWithChildren<PageProps> )
             <Header><Navigation active={id}/></Header>
             <main className="flex justify-center content" style={{ backgroundColor: 'rgb(246 234 217)'}}>
                 <div className="w-full max-w-screen-lg px-4 lg:px-0 mb-14">
-                    <h2 className="font-bold text-2xl mt-4 lg:mt-6 mb-4">{title}</h2>
+                    <h2 style={{fontFamily: 'fantasy'}} className="font-black text-2xl mt-4 lg:mt-6 mb-4">{title}</h2>
                     {children}
                 </div>
             </main>

@@ -15,10 +15,10 @@ export default function Home() {
               height={24}
               priority
             />
-            <div className="flex-col text-center">
-              <h2 className="text-3xl font-extrabold">The Maxey Family</h2>
-              <h2 className="text-2xl font-bold">of Clonmel</h2>
-              <p className="italic mt-4">~ 19th Century Fenians ~</p>
+            <div className="flex-col text-center" style={{ color: 'darkred', fontFamily: 'fantasy'}}>
+              <h2 className="text-4xl font-extrabold">The Maxey Family</h2>
+              <h2 className="text-3xl font-bold">of Clonmel</h2>
+              <p className="italic mt-4 text-2xl font-semibold" style={{ color: 'black'}}>~ 19th Century Fenians ~</p>
             </div>
       </div>
 
@@ -29,7 +29,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Maxey Family{" "}
+            <span style={{fontFamily: 'fantasy'}}>Maxey Family{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -45,7 +45,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Joseph Maxey{" "}
+          <span style={{fontFamily: 'fantasy'}}>Joseph Maxey{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -61,7 +61,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Timothy Maxey{" "}
+            <span style={{fontFamily: 'fantasy'}}>Timothy Maxey{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -77,7 +77,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Robert Mapplethorpe{" "}
+            <span style={{fontFamily: 'fantasy'}}>Robert Mapplethorpe{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>

@@ -12,7 +12,7 @@ export default function Page() {
             height={24}
             priority
           />
-          <p><strong>Robert Mapplethorpe was born in Queens, New York, in 1946 to Henry Irving Mapplethorpe and Joan Dorothy Maxey.</strong></p>
+          <p><span style={{ color: 'darkred' }} className="font-bold">Robert Mapplethorpe was born in Queens, New York, in 1946 to Henry Irving Mapplethorpe and Joan Dorothy Maxey.</span></p>
           <p>Robert&#39;s mother, Joan Maxey (1920 - 1989), was a daughter of James Maxey (1889 - 1958) of New York.  James&#39; father was Michael Maxey (1864 - 1932) of Clonmel, Co. Tipperary.  Michael was a son of Timothy Maxey, the Clonmel Fenian who was exiled to the USA with his wife and children following his release from prison in 1867.</p>  
           <p>Robert Mapplethorpe studied Graphic Arts in the Pratt Institute in Brooklyn.  Whilst living with his girlfirend, Patti Smith, in New York in the late 1960s.  He initally specialised in polaroid photography before focusing of portraiture of friends and acquaintances.</p>
           <p>Through the 1970s, Robert achieved growing internatoinal attention and success.  He photographed names such as Andy Warhol, Patti Smith and David Hockney.</p>

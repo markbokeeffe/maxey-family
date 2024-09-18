@@ -12,7 +12,7 @@ export default function Page() {
             height={24}
             priority
           />
-          <p><strong>Timothy Maxey was born in Clonmel, Co. Tipperary around 1837 to William Maxey (a publican) and Bridget Maxey n&eacute;e Kelly.</strong></p>
+          <p><span style={{ color: 'darkred' }} className="font-bold">Timothy Maxey was born in Clonmel, Co. Tipperary around 1837 to William Maxey (a publican) and Bridget Maxey n&eacute;e Kelly.</span></p>
           <p>He worked as a cooper - a popular trade in Clonmel at the time.  In 1860, he married Catherine Healy from Clonmel.  Together, they would have at least six children:</p>
           <ul>
             <li>- John (1861 -)</li>
