@@ -55,6 +55,16 @@ p {
   opacity: 0.2;
 }
 
+.subtitle {
+  color: #8b0000;
+  font-weight: 700;
+  font-family: fantasy;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 60px;
+  display: block;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
