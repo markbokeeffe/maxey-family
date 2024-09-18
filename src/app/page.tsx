@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center lg:justify-between p-0">
-      <Navigation isHome={true} />
+      <Header isHome={true}><Navigation isHome={true} /></Header>
       <div className="home-container w-full max-w-4xl flex justify-evenly relative z-[-1] flex place-items-center flex-col sm:flex-row pb-24" >
             <Image
               src="/joseph_maxey.jpg"
@@ -33,6 +34,9 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            Publicans &amp; Coopers
+          </p>
         </a>
 
         <a
@@ -46,6 +50,9 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            Fenian Suspect
+          </p>
         </a>
 
         <a
@@ -59,6 +66,9 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            Exiled Rebel
+          </p>
         </a>
 
         <a
@@ -72,6 +82,9 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            Cultural Icon
+          </p>
         </a>
       </div>
     </main>

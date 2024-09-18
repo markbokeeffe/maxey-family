@@ -1,11 +1,9 @@
-import Navigation from '../components/Navigation';
 import ContentPage from '../components/Page';
 import Image from 'next/image';
 
 export default function Page() {
     return <>
-          <Navigation active='timothyMaxey'/>
-          <ContentPage title='Timothy Maxey'>
+          <ContentPage id="timothyMaxey" title='Timothy Maxey'>
             <Image
             src='/timothy_maxey_prison_file.png'
             alt='Timothy Maxey Prison File'

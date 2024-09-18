@@ -4,8 +4,7 @@ import Image from "next/image";
 
 export default function Page() {
     return <>
-        <Navigation active="maxeyFamily" />
-        <ContentPage title="The Maxey Family">
+        <ContentPage id="maxeyFamily" title="The Maxey Family">
         <Image
             src="/gladstone_street.jpg"
             alt="Gladstone Street"
