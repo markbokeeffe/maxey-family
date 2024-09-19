@@ -12,7 +12,7 @@ export const Header = ({ children, isHome = false}: PropsWithChildren<HeaderProp
 	return (
         <div className="border-b border-gray-400 flex w-full h-[60px] lg:h-[100px] flex w-full justify-center">
             <div className="flex items-center w-full max-w-screen-lg">
-            {!isHome && <Logo />}
+            <Logo isHome={isHome} />
             {children}
             </div>
       </div>
