@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center lg:justify-between p-0">
       <Header isHome={true}><Navigation isHome={true} /></Header>
-      <div className="home-container w-full max-w-4xl flex justify-evenly relative z-[-1] flex place-items-center flex-col sm:flex-row pb-32" >
+      <div className="home-container w-full max-w-4xl flex justify-evenly relative z-[-1] flex place-items-center flex-col sm:flex-row pb-32 lg:pb-12" >
             <Image
               src="/joseph_maxey.jpg"
               alt="Joseph Maxey"
