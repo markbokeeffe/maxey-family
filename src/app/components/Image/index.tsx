@@ -18,7 +18,7 @@ export const Image= ({ clear = true, src, alt='', className, float = 'left', wid
 <ImageElem
 src={src}
 alt={alt}
-className={clsx('dark:invert border-4 border-black opacity-100', className)}
+className={clsx('border-4 border-black opacity-100', className)}
 width={width}
 height={height}
 priority
