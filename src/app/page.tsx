@@ -10,7 +10,7 @@ export default function Home() {
             <Image
               src="/joseph_maxey.jpg"
               alt="Joseph Maxey"
-              className="dark:invert border-4 border-black opacity-100 z-10 mt-10 mb-6 lg:mb-0"
+              className="border-4 border-black z-10 mt-10 mb-6 lg:mb-0"
               width={300}
               height={24}
               priority
@@ -25,7 +25,7 @@ export default function Home() {
       <div className="mb-32 mt-14 hidden lg:grid text-center lg:mb-0 lg:w-full lg:max-w-7xl lg:grid-cols-4 lg:text-left  border-t-2 border-black">
         <a
           href="maxey-family"
-          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
@@ -41,7 +41,7 @@ export default function Home() {
 
         <a
           href="joseph-maxey"
-          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
@@ -57,7 +57,7 @@ export default function Home() {
 
         <a
           href="timothy-maxey"
-          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
@@ -73,7 +73,7 @@ export default function Home() {
 
         <a
           href="robert-mapplethorpe"
-          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
