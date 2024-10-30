@@ -57,25 +57,31 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
                   <li className="border-b border-gray-400 my-8 uppercase">
                     <a href="/robert-mapplethorpe">Robert Mapplethorpe</a>
                   </li>
+                  <li className="border-b border-gray-400 my-8 uppercase">
+                    <a href="mailto:mark.okeeffe@gmail.com">Contact</a>
+                  </li>
                 </ul>
               </div>
             </section>
     
             {!isHome && <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-medium">
               <li>
-                <a href="/">Home</a>
+                <a href="/" className="hover:underline">Home</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "maxeyFamily"})} href="/maxey-family">Maxey Family</a>
+                <a className={clsx({ "active" : active === "maxeyFamily"}, "hover:underline")} href="/maxey-family">Maxey Family</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "josephMaxey"})} href="/joseph-maxey">Joseph Maxey</a>
+                <a className={clsx({ "active" : active === "josephMaxey"}, "hover:underline")} href="/joseph-maxey">Joseph Maxey</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "timothyMaxey"})} href="/timothy-maxey">Timothy Maxey</a>
+                <a className={clsx({ "active" : active === "timothyMaxey"}, "hover:underline")} href="/timothy-maxey">Timothy Maxey</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "mapplethorpe"})} href="/robert-mapplethorpe">Robert Mapplethorpe</a>
+                <a className={clsx({ "active" : active === "mapplethorpe"}, "hover:underline")} href="/robert-mapplethorpe">Robert Mapplethorpe</a>
+              </li>
+              <li>
+                <a href="mailto:mark.okeeffe@gmail.com" className="hover:underline">Contact</a>
               </li>
             </ul>}
           </nav>
