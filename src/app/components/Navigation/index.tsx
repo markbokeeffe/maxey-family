@@ -15,7 +15,7 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
           <nav className="">
             <section className="MOBILE-MENU flex lg:hidden">
               <div
-                className="HAMBURGER-ICON space-y-2"
+                className="HAMBURGER-ICON space-y-2 cursor-pointer"
                 onClick={() => setIsNavOpen((prev) => !prev)} 
               >
                 <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -25,7 +25,7 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
     
               <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                 <div
-                  className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+                  className="CROSS-ICON absolute top-0 right-0 px-8 py-8 cursor-pointer"
                   onClick={() => setIsNavOpen(false)}
                 >
                   <svg
